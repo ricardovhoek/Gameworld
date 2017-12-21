@@ -1,0 +1,261 @@
+.clearfix {
+  clear: both;
+}
+
+body{
+  background-image: url("../img/ac1.jpg");
+  background-size: cover;
+}
+
+#header {
+  list-style: none;
+  background-color: transparant;
+  height: 70px;
+}
+
+#title {
+  text-decoration: none;
+  color: black;
+  z-index: 4
+}
+
+#logo {
+  margin-left: 10px;
+  float: left;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 13px;
+  margin-left: 70px
+  list-style: none;
+  text-decoration: none;
+}
+
+#logo a:hover {
+  color: #979ca3;
+}
+
+#main-nav {
+  font-family: arial;
+  float: right;
+  margin-right: 70px;
+}
+
+#main-nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-nav li a {
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+  height: 45px;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding-top: 24px;
+  text-align: center;
+  border-radius: 75px;
+  border: 2px solid #000000;
+}
+
+#main-nav li {
+  display: inline;
+}
+
+#main-nav li a:hover {
+  background-color: #979ca3;
+}
+
+#image-container {
+  width: 1000px;
+  height: 550px;
+  margin-top: 20px;
+  border: solid black 2px;
+  float: left;
+  background: url(img/ac2.jpg);
+}
+
+#menu-container {
+  float: right;
+  width: 200px;
+  height: 500px;
+  margin-right: 270px;
+  margin-top: 20px;
+}
+
+#xbox-image {
+  height: 150px;
+  width: 200px;
+  border: solid black 2px;
+}
+
+#xbox-image:hover {
+  opacity: 0.5;
+}
+
+#ps-image {
+  height: 150px;
+  width: 200px;
+  border: solid black 2px;
+}
+
+#ps-image:hover {
+  opacity: 0.5;
+}
+
+#pc-image {
+  height: 150px;
+  width: 200px;
+  border: solid black 2px;
+}
+
+#pc-image:hover {
+  opacity: 0.5;
+}
+
+#about-container {
+  height: 500px;
+  width: 600px;
+}
+
+#banner-text {
+  margin-top: 300px;
+  margin-left: 120px;
+  position: absolute;
+  font-size: 55px;
+  color: red;
+  font-family: verdana;
+}
+
+#footer {
+  list-style: none;
+  color: black;
+  background-color: transparant;
+  height: 50px;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%
+}
+
+#contactform {
+  padding-top: 35px;
+  border: solid black 2px;
+  font-size: 20px;
+  height: 300px;
+  width: 350px;
+}
+
+#products-container {
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+
+}
+.product-item {
+  background-color: black;
+  width: 220px;
+  height: 300px;
+  border: 1px solid black;
+  float: left;
+  margin-right: 24px;
+  margin-top: 15px;
+  position: relative;
+  color: #fff;
+}
+.product-item img {
+  width: 220px;
+  height: 200px;
+  background-position: center;
+}
+.last-product-item {
+  float: right;
+  margin-right: 0px;
+}
+.clearfix {
+  clear: both;
+}
+.order-button {
+  width: 220px;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  border: 1px solid black;
+}
+.price {
+  width: 50px;
+  height: 25px;
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  top: 188px;
+  right: -5px;
+  border: 1px solid white;
+}
+.name {
+  position: absolute;
+  bottom: 50px;
+}
+#checkbox-css {
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  right: -7px;
+  top: 10px;
+  border: 2px solid black;
+}
+#addToCartButton {
+  margin-top: 25px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  height: 50px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+#addToCartButton:hover {
+  background-color: grey;
+}
+table {
+    border-collapse: collapse;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+#total-price {
+  text-align: right;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+#table-box {
+  background-color: white;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.total-price1 {
+  text-align: right;
+}
+#banner-image{
+height: 550px;
+width: 1000px;
+}
